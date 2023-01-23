@@ -47,7 +47,7 @@ namespace GitApplication
             Console.WriteLine("10.3");
             Console.WriteLine("11.07");
         }
-        public static void PrintMyName()
+        public static void PrintMyName2()
         {
             Console.WriteLine("Митяев Антон Андреевич");
             Console.WriteLine("10.3");
