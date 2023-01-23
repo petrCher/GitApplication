@@ -22,10 +22,3 @@ namespace GitApplication
         }
     }
 }
-                Console.WriteLine();
-            }
-            Console.ForegroundColor = ConsoleColor.White;
-
-        }
-    }
-}
