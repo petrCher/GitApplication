@@ -42,5 +42,11 @@ namespace GitApplication
             Console.ForegroundColor = ConsoleColor.White;
 
         }
+        public static void PrintMyName()
+        {
+            Console.WriteLine("Митяев Антон Андреевич");
+            Console.WriteLine("10.3");
+            Console.WriteLine("12.10");
+        }
     }
 }
