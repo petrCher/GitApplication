@@ -6,16 +6,16 @@ namespace GitApplication
     {
         static void Main(string[] args)
         {
-            
+            MatrixA(2, 4);
         }
         static void MatrixA(int w, int h)
         {
             Console.ForegroundColor = ConsoleColor.DarkGreen;
             Random random = new Random();
             int[,] array = new int[w, h];
-            for (int i = 0; i < h; i++)
+            for (int i = 0; i < w; i++)
             {
-                for(int j = 0; j < w; j++)
+                for(int j = 0; j < h; j++)
                 {
                     array[i, j] = random.Next(0, 2);
                     Console.Write($"{array[i, j]} ");
